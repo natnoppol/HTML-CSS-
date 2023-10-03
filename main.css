@@ -12,7 +12,7 @@
 
 header {
 background: url('https://images.unsplash.com/photo-1603481546579-65d935ba9cdd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
-height: 450px;
+height: 500px;
 background-size: cover;
 background-position: center;
 color: #fff;
@@ -35,14 +35,46 @@ nav a {
 
 }
 
-.header-info{
+.header-info {
     margin-top: 5rem;
     border: 1px solid red;
     width: 500px;
 }
 
-.header-info {
+.header-info h3 {
     font-size: 3rem;
     font-weight: lighter;
 
+}
+
+.header-btn {
+    margin-top: 1rem;
+}
+
+
+.header-btn input {
+    padding: 0.5rem;
+    width: 230px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-btn button {
+    padding: 0.5rem;
+    width: 150px;
+    background-color: #0099ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.about {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+
+.about-title {
+    color: #0099ff;
+    font-size: 2rem;
 }
