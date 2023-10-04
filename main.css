@@ -37,8 +37,14 @@ nav a {
 
 .header-info {
     margin-top: 5rem;
+    text-align: center;
     /* border: 1px solid red; */
-    width: 500px;
+  
+}
+
+.header-info p {
+width: 500px;
+margin: 0 auto;
 }
 
 .header-info h3 {
@@ -68,9 +74,22 @@ nav a {
     border-radius: 5px;
 }
 
+.column {
+float: left;
+width: 33.33%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .about {
     text-align: center;
     padding: 3rem 0;
+    background-color: #333;
+    color: #fff;
 }
 
 .about-con {
