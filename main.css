@@ -11,7 +11,7 @@
 }
 
 header {
-background: url('https://images.unsplash.com/photo-1603481546579-65d935ba9cdd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+background: url('/Image/gamehub\ for\ gamer\ by\ gamer.png');
 height: 500px;
 background-size: cover;
 background-position: center;
@@ -177,4 +177,41 @@ width: 33.33%;
     text-decoration: none;
     border-radius: 5px;
 
+}
+
+.clients {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.clients-title h3 {
+color: #0099ff;
+font-size: 2rem;
+font-weight: lighter;
+
+}
+
+.clients-title p {
+    color: #797979;
+    margin: 1rem 0;
+}
+
+.clients-grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    text-align: left;
+}
+.clients-img {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.clients-img img {
+    width: 20%;
+border-radius: 80%;
+margin: 1rem;
 }
