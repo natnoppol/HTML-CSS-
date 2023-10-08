@@ -16,12 +16,12 @@ header {
     background-size: cover;
     background-position: center;
     color: #fff;
-    box-shadow: inset 0 0 0 2000px rgba(0,0,0, 0.5);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
 }
 
 nav {
 
-   background: #333;
+    background: #333;
 }
 
 .nav-con {
@@ -32,14 +32,23 @@ nav {
 }
 
 .menu {
-display: flex;
+    display: flex;
 
 
 }
 
 .menu li {
-list-style: none;
-margin-left: 5rem;
+    padding:  1rem;
+    list-style: none;
+    margin-left: 5rem;
+    transition: 0.5s;
+    
+}
+
+.menu li:hover {
+    background: #222;
+    
+
 }
 
 a {
@@ -60,11 +69,35 @@ nav a {
 
 
 @media screen and (max-width: 360px) {
-    .nav-con {
 
-        flex-direction: column ;
+
+    .logo {
+        margin-bottom: 1.5rem;
     }
-    
+
+    .nav-con {
+        padding: 3rem 0;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .menu {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .menu li {
+        padding: 1rem 0;
+        margin-left: 0;
+        transition: 0.5s;
+    }
+
+    .menu li:hover {
+        background: #222;
+        
+    }
+
 }
 
 
@@ -258,7 +291,7 @@ nav a {
 .background-img {
     background-image: url(https://images.unsplash.com/photo-1586776977607-310e9c725c37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
     filter: blur(5px);
-    -webkit-filter: blur(8px) ;
+    -webkit-filter: blur(8px);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -270,24 +303,24 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: relative;
-  top: -210px;
-  margin: auto;
-  width: 512px;
-  gap: 16px;
- 
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: relative;
+    top: -210px;
+    margin: auto;
+    width: 512px;
+    gap: 16px;
+
 
 }
 
 
 .newsletter {
 
-   
+
     background-position: center;
     height: 250px;
 
@@ -322,13 +355,14 @@ nav a {
 footer {
     background-color: #0099ff;
     padding: 1rem;
-    
+
 }
 
 .footer-menu {
     display: flex;
     justify-content: space-between;
 }
+
 .footer-menu a {
     color: #fff;
     text-decoration: none;
@@ -345,7 +379,7 @@ footer {
 
 .footer-menu ul li a {
     text-transform: uppercase;
-font-size: 14px;
+    font-size: 14px;
 
 }
 
