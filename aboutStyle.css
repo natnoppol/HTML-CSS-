@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    padding: 1rem;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo a {
+font-size: 2rem;
+color: #fff;
+text-decoration: none;
+align-items: center;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+.menu li {
+    margin: 0 1rem;
+
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
