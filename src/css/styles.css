@@ -248,9 +248,12 @@ nav a {
 
 }
 
+
+/* pricing */
+
 .pricing {
 
-    background-color: #0099ff;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 3rem 0;
@@ -312,48 +315,43 @@ nav a {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-
 }
 
+/* client */
 .clients {
     padding: 3rem 0;
     text-align: center;
+    background-color: #000000;
+    color: #fff;
 }
-
-.clients-title h3 {
+.container-title h1 {
     color: #0099ff;
     font-size: 2rem;
     font-weight: lighter;
-
 }
-
 .clients-title p {
     color: #797979;
     margin: 1rem 0;
+    color: #fff;
 }
-
 .clients-grid {
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     text-align: left;
+    color: #fff;
 }
-
 .clients-img {
     display: flex;
     align-items: center;
     margin-top: 2rem;
-
 }
-
 .clients-img img {
     width: 20%;
-    border-radius: 80%;
+    border-radius: 2rem;
     margin: 1rem;
 }
-
-
 .background-img {
     background-image: url(https://images.unsplash.com/photo-1586776977607-310e9c725c37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
     filter: blur(5px);
@@ -362,9 +360,7 @@ nav a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
-
 .background-text {
     display: flex;
     flex-direction: column;
@@ -379,19 +375,13 @@ nav a {
     margin: auto;
     width: 512px;
     gap: 16px;
-
-
 }
 
-
+/* newsletter  */
 .newsletter {
-
-
     background-position: center;
     height: 250px;
-
 }
-
 .newsletter-title {
     text-align: center;
     display: flex;
@@ -399,16 +389,13 @@ nav a {
     align-items: center;
     height: 250px;
     color: #fff;
-
 }
-
 .newsletter input {
     padding: 0.5rem;
     width: 230px;
     border: none;
     border-radius: 5px;
 }
-
 .newsletter button {
     padding: 0.5rem;
     width: 150px;
@@ -418,49 +405,65 @@ nav a {
     border-radius: 5px;
 }
 
-
 /* footer */
-
 footer {
-    background-color: #0099ff;
+    background-color: #000000;
     padding: 1rem;
-
 }
-
 .footer-menu {
     display: flex;
     justify-content: space-between;
 }
-
 .footer-menu a {
     color: #fff;
     text-decoration: none;
 }
-
 .footer-menu ul {
     list-style: none;
     display: flex;
 }
-
 .footer-menu li {
     margin-right: 1rem;
 }
-
 .footer-menu ul li a {
     text-transform: uppercase;
     font-size: 14px;
-
+}
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: #333;
+    color: #fff;
+}
+.footer-top-con {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 2rem;
+}
+.footer-top-item-con{
+    display: flex;
+    margin: 1rem 0;
+}
+.footer-top-item-con .date {
+    background-color: #fff;
+    color: #000000;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+.footer-top-item:nth-child(2) h4,
+.footer-top-item:nth-child(3) h4{
+  margin-bottom: 1rem;
+}
+.footer-bottom{
+background-color: #fff;
+padding: 1rem;
+text-align: center;
 }
 
 
-
-
-
 /* aboout css page */
-
-
-
-
 .blog {}
 
 .blog-con {
