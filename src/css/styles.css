@@ -1,24 +1,31 @@
+@import url("/src/_screen.css");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.5s;
 }
+/* body */
+.body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+/* container */
 .container {
     max-width: 1140px;
     margin: 0 auto;
 }
-header {
-    background: url('/Image/gamehub\ for\ gamer\ by\ gamer.png');
-    height: 500px;
-    background-size: cover;
-    background-position: center;
-    color: #fff;
-    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
-}
 
 /* Navbar */
 nav {
-
     background: #333;
 }
 
@@ -28,7 +35,12 @@ nav {
     align-items: center;
     height: 60px;
 }
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
 
+/* menu */
 .menu {
     display: flex;
 }
@@ -45,49 +57,33 @@ nav {
     color: #fff;
     text-decoration: none;
 }
+.menu-container {
+display: flex;
+justify-content: center;
+align-items: center;
+list-style-type: none;
+}
+.menu-item{
+    margin: 2rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
 a {
     color: #fff;
     text-decoration: none;
 }
-nav a {
-    color: #fff;
-    text-decoration: none;
-}
-.logo a {
-    font-size: 24px;
-    color: #fff;
-    text-decoration: none;
-    align-items: center;
-
-}
-@media screen and (max-width: 360px) {
-    
-    .logo {
-        margin-bottom: 1.5rem;
-    }
-    .nav-con {
-        padding: 3rem 0;
-        flex-direction: column;
-        height: auto;
-    }
-    .menu {
-        width: 100%;
-        text-align: center;
-        flex-direction: column;
-    }
-    .menu li {
-        padding: 1rem 0;
-        margin-left: 0;
-        transition: 0.5s;
-    }
-    .menu li:hover {
-        background: #222;
-
-    }
-}
-
 /* Header  */
-
+header {
+    background: url('/Image/gamehub\ for\ gamer\ by\ gamer.png');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #fff;
+  
+}
 .header-info {
     margin-top: 5rem;
     text-align: center;
@@ -119,7 +115,17 @@ nav a {
     border: none;
     border-radius: 5px;
 }
-
+/* logo */
+.logo{
+    font-size: 26px;
+    font-weight: 800;
+}
+.logo a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+}
 /* Hero Home page */
 .hero {
     background-color: #000000;
@@ -183,8 +189,15 @@ nav a {
     color: #797979;
     margin: 1rem 0;
 }
+
+.column .about-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
 .about-img {
     margin: 2rem 0;
+    
 }
 
 /* pricing */

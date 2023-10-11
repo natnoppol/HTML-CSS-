@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Details Page</title>
+
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <div class="logo">
+                    <a href="/index.html">Logo</a>
+                </div>
+                <ul class="menu">
+                    <li><a href="/about.html">ABOUT US</a></li>
+                    <li><a href="/product.html">GAME PRODUCT</a></li>
+                    <li><a href="#">JOIN OUR DISCORD</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="progress-checkout-container">
+        <div class="progress-step-container">
+            <div class="step-check"></div>
+            <span class="step-title">Shipping</span>
+            <span class="step-title">Payment</span>
+            <span class="step-title">Review</span>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <h2 class="form-title">Payment Details</h2>
+        <form action="" class="checkout-form">
+            <div class="input-line">
+                <label for="name">Name On Card</label>
+                <input type="text" name="name" id="name" placeholder="Your Name and Lastname">
+            </div>
+            <div class="input-line">
+                <label for="Card">Card Nummer</label>
+                <input type="text" name="Card" id="Card" placeholder="1111-2222-3333-4444">
+            </div>
+            <div class="input-container">
+                <div class="input-line">
+                    <label for="Data">Expiring Data</label>
+                    <input type="text" name="Data" id="Data" placeholder="09-21">
+                </div>
+                <div class="input-line">
+                    <label for="CVC">CVC</label>
+                    <input type="text" name="CVC" id="CVC" placeholder="***">
+                </div>
+            </div>
+            <input type="button" value="Complete Purchase">
+        </form>
+    </div>
+</body>
+
+</html>
