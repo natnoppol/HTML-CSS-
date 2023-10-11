@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout Page</title>
-    
+
     <link rel="stylesheet" href="src/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -26,54 +26,48 @@
             </div>
         </nav>
         <main>
-            <div class="herocheckout"><h1>Kassan</h1></div>
+            <div class="herocheckout"><h1>Cart summary</h1></div>
             <div class="checkout">
                 <div class="checkout-box">
-                    <div class="product-name">1 x Svart T-shirt</div>
-                    <div class="product-price"> 199 SEK</div>
+                    <div class="product-name">1 x Cyberpunk2077</div>
+                    <div class="product-price"> 59.99$</div>
                     <br>
-                    199 SEK
+                    59.99$
                     </div>
                 <div class="checkout-box">
-                    <div class="product-name">1 x Svart T-shirt</div>
-                    <div class="product-price"> 199 SEK</div>
+                    <div class="product-name">1 x Cyberpunk2077</div>
+                    <div class="product-price"> 59.99$</div>
                     <br>
-                    199 SEK
+                    59.99$
                 </div>
             </div>
             <div class="fullscreen">
                 <table>
                     <tr>
-                      <th>Produkt</th>
-                      <th>Antal</th>
-                      <th>Pris</th>
-                      <th>Totalt</th>
+                      <th>Product</th>
+                      <th>Quantity</th>
+                      <th>Price</th>
+                      <th>Total</th>
                     </tr>
                     <tr>
-                      <td>Svart T-Shirt</td>
+                      <td>Cyberpunk2077</td>
                       <td>1</td>
-                      <td>199 kr</td>
-                      <td>199 kr</td>
-                    </tr>
-                    <tr>
-                      <td>Vit t-Shirt</td>
-                      <td>2</td>
-                      <td>199 kr</td>
-                      <td>398 kr</td>
+                      <td>59.99$</td>
+                      <td>59.99$</td>
                     </tr>
                   </table>
             </div>
-            <h2>Kunduppgifter</h2>
+            <h2>Customer information</h2>
             <div class="uppgifter">
                 <form action="#" method="post">
                     <div class="kundnamn">
                         <div class="fname">
-                            <label for ="fname">Förnamn</label>
+                            <label for ="fname">First Name:</label>
                             <br>
                             <input type="text" id="fname" name="fname" required>
                             <br>
                         </div>
-                        <div class="lname"><label for="lname">Efternamn:</label>
+                        <div class="lname"><label for="lname">Last Name:</label>
                             <br>
                             <input type="text" id="lname" name="lname" required>
                             <br>
@@ -83,20 +77,20 @@
                             <br>
                             <input type="email" id="email" name="email" required>
                             <br>
-                            <label for="password">Lösenord:</label>
+                            <label for="password">Password:</label>
                             <br>
                             <input type="password" id="password" name="password" required>
                             <fieldset>
-                                <legend>Adress</legend>
-                                <label for="street">Gata:</label>
+                                <legend>Address</legend>
+                                <label for="street">Street:</label>
                               <br>
                               <input type="text" id="street" name="street" required>
                               <br>
-                              <label for="zip">Postnummer:</label>
+                              <label for="zip">ZIP code:</label>
                               <br>
                               <input type="text" id="zip" name="zip" required>
                               <br>
-                              <label for="city">Stad:</label>
+                              <label for="city">City:</label>
                               <br>
                               <select id="city" >
                                 <option value="Malmö">Malmö</option>
@@ -106,10 +100,10 @@
                               </select>
                               </fieldset>
                                 <input type="checkbox" id="checkbox" name="checkbox">
-                                <label for="checkbox">Jag vill ta emot nyhetsbrev</label>
+                                <label for="checkbox">I want to receive newsletters</label>
                                 <br>
                                 <div class="submit-button">
-                                <button class="submit-button" onClick="window.location.reload();">Köp</button>
+                                <button class="submit-button" onClick="window.location.reload();">BUY</button>
                                 </div>
                 </form>
             </div>
@@ -141,57 +135,30 @@
                 </svg>
                 <h4>Nyheter varje dag</h4>
             </div>    
-    </div>
-        <div class="accordion">
-            <details>
-              <summary>Shopping</summary>
-              <ul>
-                <li>Vinterjackor</li>
-                <li>Pufferjackor</li>
-                <li>Kappa</li>
-                <li>Trenchcoats</li>
-              </ul>
-            </details>
-            <details>
-              <summary>Mina Sidor</summary>
-              <ul>
-                <li>Mina ordrar</li>
-                <li>Mitt konto</li>
-              </ul>
-            </details>
-            <details>
-              <summary>Kundtjänst</summary>
-              <ul>
-                <li>Returnpolicy</li>
-                <li>INtegregisplicy</li>
-              </ul>
-            </details>
-          </div>
-          <div class="info">
-            <div class="Shop-info">
-              <h5>Shopping</h5>
-              <ul>
-                <li>Vinterjackor</li>
-                <li>Pufferjackor</li>
-                <li>Kappa</li>
-                <li>Trenchcoats</li>
-              </ul>
-            </div>
-            <div class="my-pages">
-              <h5>Mina Sidor</h5>
-              <ul>
-                <li>Mina ordrar</li>
-                <li>Mitt konto</li>
-              </ul>
-            </div>
-            <div class="Support">
-              <h5>Kundtjänst</h5>
-              <ul>
-                <li>Returnpolicy</li>
-                <li>Integritetspolicy</li>
-              </ul>
-            </div>
-          </div>
-        <div class="footercopy"><h4>&copy; Freaky Fashion</h4></div>
+            <div class="accordion">
+                <details>
+                  <summary>Shopping</summary>
+                  <ul>
+                    <li>Starwar</li>
+                    <li>assasin</li>
+                    <li>black</li>
+                    <li>Forcelegend</li>
+                  </ul>
+                </details>
+                <details>
+                  <summary>My <P></P>ages</summary>
+                  <ul>
+                    <li>My Order</li>
+                    <li>My Account</li>
+                  </ul>
+                </details>
+                <details>
+                  <summary>Customer Service</summary>
+                  <ul>
+                    <li>Return Policy</li>
+                    <li>INTEgregisplicy</li>
+                  </ul>
+                </details>
+              </div>
 </body>
 </html>
