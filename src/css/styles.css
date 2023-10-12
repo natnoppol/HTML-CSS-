@@ -482,3 +482,6 @@ width: 60%;
    background-repeat: no-repeat;
    background-size: 60%;
 }
+.progress-step-container:nth-last-of-type(3) .step-check::after{
+    display: none;
+}
