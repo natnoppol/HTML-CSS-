@@ -68,11 +68,13 @@ list-style-type: none;
     cursor: pointer;
     font-weight: 600;
 }
-
-a {
-    color: #fff;
-    text-decoration: none;
+.menu-icon-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 /* Header  */
 header {
     background: url('/Image/gamehub\ for\ gamer\ by\ gamer.png');
@@ -172,6 +174,20 @@ header {
     display: table;
     clear: both;
 }
+.red{
+    color: rgb(167, 33, 10);
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.icon{
+    filter: invert(1);
+    height: 25px;
+    margin: 1rem;
+}
+
+/* about */
 .about {
     text-align: center;
     padding: 3rem 0;
@@ -435,4 +451,34 @@ text-align: center;
     padding: 0.5rem 1rem;
     text-decoration: none;
     border-radius: 5px;
+}
+
+.progress-checkout-container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 60%;
+}
+.progress-step-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.step-check-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.step-check{
+    background-color: rgb(0, 132, 255);
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+   background-image: url(resources/check.svg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 60%;
 }
