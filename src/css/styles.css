@@ -68,13 +68,11 @@ list-style-type: none;
     cursor: pointer;
     font-weight: 600;
 }
-.menu-icon-container{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
 /* Header  */
 header {
     background: url('/Image/gamehub\ for\ gamer\ by\ gamer.png');
@@ -174,20 +172,6 @@ header {
     display: table;
     clear: both;
 }
-.red{
-    color: rgb(167, 33, 10);
-}
-a {
-    color: #fff;
-    text-decoration: none;
-}
-.icon{
-    filter: invert(1);
-    height: 25px;
-    margin: 1rem;
-}
-
-/* about */
 .about {
     text-align: center;
     padding: 3rem 0;
@@ -481,7 +465,4 @@ width: 60%;
    background-position: center;
    background-repeat: no-repeat;
    background-size: 60%;
-}
-.progress-step-container:nth-last-of-type(3) .step-check::after{
-    display: none;
 }
