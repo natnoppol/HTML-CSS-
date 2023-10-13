@@ -176,11 +176,15 @@ a {
 .red{
     color: rgb(167, 33, 10);
 }
+
+/* icon */
 .icon{
     filter: invert(1);
     height: 25px;
     margin: 1rem;
 }
+
+/* icon Checkout page  */
 .icon-svg{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
