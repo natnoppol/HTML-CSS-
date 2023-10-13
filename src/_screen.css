@@ -1,3 +1,5 @@
+ /* media query */
+
 @media screen and (max-width: 360px) {
     
     .logo {
@@ -29,3 +31,57 @@
     .step-check::after{
     }
 }
+
+
+@media (min-width: 576px){
+    
+    
+    .ikoner{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .accordion {
+        display: none;
+    }
+    
+    .info{
+        display: flex;
+    }
+    .product-detail{
+        text-align: start;
+        display: flex;
+        flex-direction: row;
+    }
+    .fullscreen{
+        display: flex;
+    }
+    .kundnamn{
+        display: flex;
+    }
+    .checkout-box{
+        display: none;
+    }
+
+
+}
+@media (min-width:1200px){
+    .ikoner{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .FlexContainer{
+        display: flex;
+    }
+    .hero-card{
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-detail{
+        flex-direction: row;
+    }
+    .product-info form{
+        left: 100px;
+    }
+}
+
+  
