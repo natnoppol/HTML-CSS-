@@ -1,4 +1,5 @@
 @import url("/src/css/_screen.css");
+@import url(/src/css/checkout_style.css);
 
 *{
     margin: 0;
@@ -181,18 +182,6 @@ a {
     height: 25px;
     margin: 1rem;
 }
-.icon-svg{
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    text-align: center;
-}
-.icon-svg > div {
-    display: flex;
-    flex-direction: row;
-    column-gap: 2rem;
-    margin: 2rem;
-    /* border: red solid 5px; */
-  }
 
 /* about */
 .about {
@@ -586,90 +575,9 @@ input[type="button"]:hover{
 
 /* checkout page  */
 
-    /* product detail! */
-    .product-detail{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 1em;
-        margin: 1em;
-    }
-    .product-detail{
-        border: 2px solid black; 
-    }
-    .product-detail > .product-info{
-        display: flex;
-        padding: 2em;
-        flex-direction: column;
-    }
-    .product-info> *{
-        margin-bottom: 1em;
-        gap: 1em;
-    }
-    
-    .product-detail button{
-        box-shadow: 2px 2px;
-        height: 30px;
-        margin: 10px;
-    }
-    .product-detail button:hover{
-        background-color: #8C92AC;
-        
-    }
-    .product-detail form{
-        text-align: center;
-    }
-    
-    details > summary {
-        border: 1px solid black;
-        background-color: #8C92AC;
-        list-style: none;
-        cursor: pointer;
-        text-align: left;
-    }
-    .accordion {
-        border: 1px solid black;
-        margin: 1em;
-    }
-    .info{
-        display: none;
-        gap: 2em;
-        margin: 2em;
-    }
-    .info ul{
-        list-style: none;
-    }
-    .info li {
-        margin-top: .5em;
-    }
-  
-    
-    
-    
     /* checkout */
     
-    .herocheckout{
-        margin-top: 50px;
-        text-align: center;
-        margin-bottom: 50px;
-    }
-    .checkout-box{
-        border: 1px solid black; 
-        height: 70px;
-        margin: .5em;
-    }
-    .fullscreen{
-        display: none;
-    }
-    .fullscreen table{
-        width: 100%;
-        border: 1px solid black;
-        margin: 1em;
-        border-collapse: collapse;
-    }
-    .fullscreen th, td{
-        padding: 10px;
-    }
+
     tr:nth-child(odd){
         background-color: lightgrey;
       }
@@ -681,9 +589,7 @@ input[type="button"]:hover{
         border: 1px solid black;
     }
     
-    .checkout-box{
-        background-color: rgb(145, 167, 167);
-    }
+   
     .kunduppgifter{
         margin: 1em;
     }
@@ -691,10 +597,7 @@ input[type="button"]:hover{
         margin: 1em;
     }
     
-    .kundnamn{
-        margin: 0;
-        display: block;
-    }
+   
     .fname, .lname{
         margin-left: 0em;
     }
