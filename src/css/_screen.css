@@ -36,7 +36,7 @@
 @media (min-width: 576px){
     
     
-    .ikoner{
+    .icon-svg{
         grid-template-columns: repeat(2, 1fr);
     }
     .accordion {
@@ -64,7 +64,7 @@
 
 }
 @media (min-width:1200px){
-    .ikoner{
+    .icon-svg{
         grid-template-columns: repeat(4, 1fr);
     }
     
