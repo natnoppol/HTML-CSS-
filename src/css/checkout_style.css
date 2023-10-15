@@ -85,3 +85,38 @@ text-transform: uppercase;
 h2 {
     color: white;
 }
+
+tr:nth-child(odd){
+    background-color: lightgrey;
+  }
+  th{
+    background-color: darkgrey;
+    border: 1px solid black;
+  }
+  td {
+    border: 1px solid black;
+}
+
+/* --------------------------- */
+.kunduppgifter{
+    margin: 1em;
+}
+.kunduppgifter *{
+    margin: 1em;
+}
+
+
+.fname, .lname{
+    margin-left: 0em;
+}
+
+#checkbox{
+    margin-right: 0;
+}
+.submit-button{
+    text-align: center;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+}
+
