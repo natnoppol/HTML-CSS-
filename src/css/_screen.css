@@ -28,9 +28,6 @@
         grid-template-columns: 1fr;
         column-gap: 0;
     }
-    .step-check::after{
-    }
-   
 }
 
 @media (max-width: 500px){
@@ -43,9 +40,8 @@
     .customer-name{
         display: flex;
     }
-   
-}
 
+}
 @media (max-width:480px){
     .icon-svg{
         grid-template-columns: repeat(4, 1fr);

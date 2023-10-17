@@ -1,6 +1,8 @@
 @import url("/src/css/_screen.css");
 @import url(/src/css/checkout_style.css);
 @import url(/src/css/contact_style.css);
+@import url(/src/css/product_style.css);
+@import url(/src/css/productdetail_style.css);
 
 *{
     margin: 0;

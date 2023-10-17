@@ -1,122 +1,46 @@
-.icon-svg {
+.checkout-page{
+    background: url(/Image/checkout_img.png);
+    background-size: cover;
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    text-align: center;
+    grid-template-columns: auto auto;
+    padding: 10em;
 }
-.icon-svg>div {
+.herocheckout-info h1{
+    color: #fff;
+}
+.herocheckout h1{
+    color: #fff;
+}
+.herocheckout-con{
     display: flex;
-    flex-direction: row;
-    column-gap: 2rem;
-    margin: 2rem;
-    /* border: red solid 5px; */
+    flex-direction: column;
+    gap: 2em;
+    width: 80%;
 }
-.customer-name {
-    margin: 0;
-    display: block;
+.address h4{
+    color: #fff;
 }
-details>summary {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 1rem;
-    border: 1px solid black;
-    background-color: #8C92AC;
-    list-style: none;
-    cursor: pointer;
-}
-.accordion {
-    border: 1px solid black;
-    margin: 1rem;
-}
-.herocheckout {
-    display: flex;
-    justify-content: right;
-    margin-top: 50px;
-    text-align: center;
-    margin-bottom: 50px;
-    color: #FFF;
-    text-shadow: 0px 0px 20px #FFF;
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    padding-right: 3rem;
-}
-main {
-    background: url(/Image/checkout\ img.png) ;
-    background-size: contain;
-}
-.checkout-box .product-price{
-    color: #FFF;
-
-    font-family: Open Sans;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;  
-}
-.checkout-box .product-name{
-color: #FFF;
-font-family: Open Sans;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: uppercase;
-}
-.checkout{
-    display: grid;
-  justify-content: flex-end;
-  flex-direction: column;
+.text-white{
+    color: #fff;
 }
 .checkout-box{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 1rem;
-    height: 70px;
-    margin: .5em;
-    column-gap: 5rem;
-}
-
-h2 {
-    color: white;
-}
-
-tr:nth-child(odd){
-    background-color: lightgrey;
-  }
-  th{
-    background-color: darkgrey;
-    border: 1px solid black;
-  }
-  td {
-    border: 1px solid black;
-}
-
-/* --------------------------- */
-.kunduppgifter{
+    justify-content: space-evenly;
+    flex-direction: row;
     margin: 1em;
+    padding: 1em;
 }
-.kunduppgifter *{
-    margin: 1em;
-}
-
-
-.fname, .lname{
-    margin-left: 0em;
-}
-
-#checkbox{
-    margin-right: 0;
-}
-.submit-button{
+.herocheckout{
     text-align: center;
-    height: 40px;
-    width: 80px;
-    margin: 10px;
 }
-
+label{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: inline-block;
+}
+@media screen and (max-width: 900px) {
+    .checkout-page{
+        padding: 2em;
+    }
+    
+}
