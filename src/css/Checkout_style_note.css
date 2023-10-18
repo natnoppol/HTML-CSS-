@@ -1,5 +1,7 @@
+/* Not in use  */
+
 .icon-svg {
-    display: grid;
+display: grid;
     grid-template-columns: repeat(2, 2fr);
     text-align: center;
 }
