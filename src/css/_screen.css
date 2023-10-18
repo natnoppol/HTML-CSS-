@@ -23,14 +23,13 @@
     .menu li:hover {
         background: #222;
     }
-  
     .about-img img{
         grid-template-columns: 1fr;
         column-gap: 0;
     }
 }
 
-@media (max-width: 500px){
+@media screen and (max-width: 500px){
     .icon-svg{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -42,7 +41,7 @@
     }
 
 }
-@media (max-width:480px){
+@media screen and (max-width:480px){
     .icon-svg{
         grid-template-columns: repeat(4, 1fr);
     }
