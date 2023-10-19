@@ -158,7 +158,7 @@ background-color: #000;
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
+    column-gap: 5rem;
     text-align: left;
     color: #fff;
 }
