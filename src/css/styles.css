@@ -114,6 +114,7 @@ header { background: url('/Image/gamehub\ for\ gamer\ by\ gamer.png');
 .header-btn button {
     padding: 0.5rem;
     width: 150px;
+    height: 40px;
     background-color: #0099ff;
     color: #fff;
     border: none;
