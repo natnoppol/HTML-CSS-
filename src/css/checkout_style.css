@@ -48,6 +48,36 @@ label{
 .submit-button:hover{
     opacity: 0.7; 
 }
+.checkout-box .product-price{
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    line-height: normal;  
+}
+.checkout-box .product-name{
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+input[type="email"]{
+    height: 40px;
+    padding: 0 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+input[type="password"]{
+    height: 40px;
+    padding: 0 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
 
 @media screen and (max-width: 900px) {
     .checkout-page{
