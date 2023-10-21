@@ -1,16 +1,19 @@
-.icon-svg {
+.product-con{
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    text-align: center;
-    padding: 5rem;
 }
-
-.icon-svg>div {
-    display: flex;
-    flex-direction: row;
-    column-gap: 2rem;
-    margin: 2rem;
-    /* border: red solid 5px; */
+.product-con h3{
+    color: #b9b9b9;
+    margin: 1rem;
+}
+.product-info h1{
+    display: grid;
+    color: var(--White, #FEFCFE);
+    font-family: Open Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 details>summary {

@@ -7,19 +7,20 @@
 @import url(/src/css/checkout_sussess_style.css);
 @import url(/src/css/Checkout_payment_style.css);
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     transition: 0.5s;
 }
-h1{
+
+h1 {
     text-transform: uppercase;
 }
 
 /* body */
-body { 
+body {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -29,7 +30,7 @@ body {
 
 /* container */
 .container {
-    max-width: 1140px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -37,12 +38,15 @@ body {
 nav {
     background: #333;
 }
+
 .nav-con {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
+    width: 100%;
 }
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -52,31 +56,37 @@ nav a {
 .menu {
     display: flex;
 }
+
 .menu li {
     padding: 1rem;
     list-style: none;
     margin-left: 5rem;
     transition: 0.5s;
 }
+
 .menu li:hover {
     background: #222;
 }
+
 .menu li a {
     color: #fff;
     text-decoration: none;
 }
+
 .menu-container {
-display: flex;
-justify-content: center;
-align-items: center;
-list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
 }
-.menu-item{
+
+.menu-item {
     margin: 2rem;
     cursor: pointer;
     font-weight: 600;
 }
-.menu-icons-container{
+
+.menu-icons-container {
     height: 100%;
     display: flex;
     justify-content: center;
@@ -84,48 +94,56 @@ list-style-type: none;
 }
 
 /* Header  */
-header { background: url('/Image/gamehub\ for\ gamer\ by\ gamer.png');
+header {
+    background: url('/Image/gamehub\ for\ gamer\ by\ gamer.png');
     height: 500px;
     background-size: cover;
     background-position: center;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
 }
+
 .header-info {
     margin-top: 5rem;
     text-align: center;
     /* border: 1px solid red; */
 }
+
 .header-info p {
     width: 500px;
     margin: 0 auto;
 }
+
 .header-info h3 {
     font-size: 3rem;
     font-weight: lighter;
 }
+
 .header-btn {
     margin-top: 1rem;
 }
+
 .header-btn input {
     padding: 0.5rem;
-    width: 230px;
+    width: 20%;
     border: none;
     border-radius: 5px;
 }
+
 .header-btn button {
     padding: 0.5rem;
-    width: 150px;
-    height: 40px;
+    width: 10%;
     background-color: #0099ff;
     color: #fff;
     border: none;
     border-radius: 5px;
 }
+
 /* logo */
-.logo{
+.logo {
     font-size: 26px;
     font-weight: 800;
 }
+
 .logo a {
     font-size: 24px;
     color: #fff;
@@ -138,19 +156,23 @@ header { background: url('/Image/gamehub\ for\ gamer\ by\ gamer.png');
     float: left;
     width: 33.33%;
 }
+
 .row::after {
     content: "";
     display: table;
     clear: both;
 }
+
 a {
     color: #fff;
     text-decoration: none;
 }
-.red{
+
+.red {
     color: rgb(167, 33, 10);
 }
-.icon{
+
+.icon {
     filter: invert(1);
     height: 25px;
     margin: 1rem;
@@ -161,22 +183,28 @@ a {
     text-align: center;
     padding: 3rem 0;
 }
+
 .about-con {
     padding: 0 10rem;
 }
+
 .about-title {
     font-size: 2rem;
 }
+
 .about-desc {
     margin: 1rem;
 }
-.column .about-img{
+
+.column .about-img {
     width: 100%;
     object-fit: cover;
 }
+
 .about-img {
     margin: 1rem;
 }
+
 .about-index {
     text-align: center;
     padding: 3rem 0;
@@ -190,6 +218,7 @@ a {
     text-transform: uppercase;
     height: 400px;
 }
+
 .about-index-last {
     text-align: center;
     padding: 3rem 0;
@@ -209,6 +238,7 @@ a {
     background-position: center;
     height: 250px;
 }
+
 .newsletter-title {
     text-align: center;
     display: flex;
@@ -217,12 +247,14 @@ a {
     height: 250px;
     color: #fff;
 }
+
 .newsletter input {
     padding: 0.5rem;
     width: 230px;
     border: none;
     border-radius: 5px;
 }
+
 .newsletter button {
     padding: 0.5rem;
     width: 150px;
@@ -231,15 +263,17 @@ a {
     border: none;
     border-radius: 5px;
 }
+
 .background-img {
     background-image: url(https://images.unsplash.com/photo-1586776977607-310e9c725c37?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
     filter: blur(5px);
     -webkit-filter: blur(8px);
-    height: 100%; 
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .background-text {
     display: flex;
     flex-direction: column;
@@ -261,40 +295,49 @@ footer {
     background-color: #000000;
     padding: 1rem;
 }
+
 .footer-menu {
     display: flex;
     justify-content: space-between;
 }
+
 .footer-menu a {
     color: #fff;
     text-decoration: none;
 }
+
 .footer-menu ul {
     list-style: none;
     display: flex;
 }
+
 .footer-menu li {
     margin-right: 1rem;
 }
+
 .footer-menu ul li a {
     text-transform: uppercase;
     font-size: 14px;
 }
+
 .footer-top {
     margin-top: 2rem;
     padding: 3rem;
     background-color: #333;
     color: #fff;
 }
+
 .footer-top-con {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-column-gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
 }
-.footer-top-item-con{
+
+.footer-top-item-con {
     display: flex;
     margin: 1rem 0;
 }
+
 .footer-top-item-con .date {
     background-color: #fff;
     color: #000000;
@@ -303,7 +346,8 @@ column-gap: 2rem;
     text-align: center;
     margin-right: 10px;
 }
+
 .footer-top-item:nth-child(2) h4,
-.footer-top-item:nth-child(3) h4{
-  margin-bottom: 1rem;
+.footer-top-item:nth-child(3) h4 {
+    margin-bottom: 1rem;
 }
