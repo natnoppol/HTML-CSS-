@@ -1,17 +1,6 @@
  /* media query */
 
 @media screen and (max-width: 320px) {
-    .container{
-        width: 10%;
-    }
-    .nav-con {
-        width: 100%;
-    }
-    .hero-index{
-        width: 100%;
-    }
-   .about-img img{
-    width: 100%;
-   }
+    
 }
 
