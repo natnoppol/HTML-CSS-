@@ -1,6 +1,6 @@
  /* media query */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 320px) {
     .container{
         width: 10%;
     }
