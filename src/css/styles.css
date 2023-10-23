@@ -348,11 +348,6 @@ footer {
 .no-wrap {
  white-space: nowrap;
 }
-
-@media screen and (max-width: 900px)  {
-
- }
-
 @media screen and (max-width: 768px)  {  
     .nav-con {
         /* display: flex;
