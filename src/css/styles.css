@@ -12,9 +12,15 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    font-size: 1rem;
     transition: 0.5s;
 }
-
+html{
+    font-size: calc(60% + 0.8vmin);
+}
+img {
+    width: 25rem;
+}
 h1 {
     text-transform: uppercase;
 }
@@ -44,7 +50,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 3.75rem;
     width: 100%;
 }
 nav a {
@@ -54,7 +60,7 @@ nav a {
 .material-symbols-outlined{
     color: white;
     margin: 0px !important;
-    padding: 10px;
+    padding: 0.625rem;
     display: none;
 }
 .menu-mobile-body{
@@ -65,7 +71,7 @@ nav a {
     position: absolute;
     background-color: aquamarine;
     top: 0px;
-    left: 50px;
+    left: 3.125rem;
     display: none;
 }
 .menu-mobile-ul{
@@ -126,7 +132,7 @@ header {
     /* border: 1px solid red; */
 }
 .header-info p {
-    width: 500px;
+    width: 31.25rem;
     margin: 0 auto;
 }
 .header-info h3 {
@@ -153,23 +159,18 @@ header {
 
 /* logo */
 .logo {
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 800;
 }
 .logo a {
-    font-size: 24px;
+    font-size: 1.625rem;
     color: #fff;
     text-decoration: none;
     align-items: center;
 }
 /* Img */
 .column {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5rem;
-    row-gap: 5rem;
-    justify-items: center;
-    align-items: center;
+
 }
 /* .row::after {
     content: "";
@@ -182,7 +183,7 @@ a {
 }
 .icon {
     filter: invert(1);
-    height: 25px;
+    height: 1.563rem;
     margin: 1rem;
 }
 
@@ -228,13 +229,13 @@ a {
     align-items: center;
     text-align: center;
     text-transform: uppercase;
-    height: 400px;
+    height: 25rem;
 }
 
 /* newsletter  */
 .newsletter {
     background-position: center;
-    height: 250px;
+    height: 15.625rem;
 }
 
 .newsletter-title {
@@ -242,20 +243,20 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 15.625rem;
     color: #fff;
 }
 
 .newsletter input {
     padding: 0.5rem;
-    width: 230px;
+    width: 14.375rem;
     border: none;
     border-radius: 5px;
 }
 
 .newsletter button {
     padding: 0.5rem;
-    width: 150px;
+    width: 9.375rem;
     background-color: #0099ff;
     color: #fff;
     border: none;
@@ -282,9 +283,9 @@ a {
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: relative;
-    top: -210px;
+    top: -13.125rem;
     margin: auto;
-    width: 512px;
+    width: 32rem;
     gap: 16px;
 }
 
@@ -360,5 +361,7 @@ footer {
     .menu-mobile-body {
         display: block;
     }
-    
+    .nav-con{
+        display: none;
+    }
 }
