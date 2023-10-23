@@ -132,7 +132,6 @@ header {
     /* border: 1px solid red; */
 }
 .header-info p {
-    width: 31.25rem;
     margin: 0 auto;
 }
 .header-info h3 {
@@ -170,7 +169,10 @@ header {
 }
 /* Img */
 .column {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    column-gap: 2rem;
 }
 /* .row::after {
     content: "";
@@ -201,9 +203,11 @@ a {
 .about-desc {
     margin: 1rem;
 }
-.about-img {
+.column img {
     margin: 1rem;
+    width: 100%;
 }
+
 .about-index {
     text-align: center;
     padding: 3rem 0;
@@ -363,5 +367,8 @@ footer {
     }
     .nav-con{
         display: none;
+    }
+    .column{
+        grid-template-columns: 1fr;
     }
 }
