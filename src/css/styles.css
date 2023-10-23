@@ -42,8 +42,8 @@ nav {
 }
 .nav-con {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between; */
+    align-items: baseline;
     height: 60px;
     width: 100%;
 }
@@ -51,45 +51,35 @@ nav a {
     color: #fff;
     text-decoration: none;
 }
-.icon-mobile{
-    color: white;
-    margin: 0px !important;
-    padding: 10px;
-    display: none;
-}
-.menu-mobile-body{
-    position: relative;
-    display: none;
-}
-.menu-mobile{
-    position: absolute;
-    background-color: aquamarine;
-    top: 0px;
-    left: 50px;
-    display: none;
-}
-.menu-mobile-ul{
-    background-color: blueviolet;
-    width: 200px;
-    list-style-type: none;
-}
-.menu-mobile-ul li:hover{
-    background: cadetblue;
-}
 
+
+
+.material-symbols-outlined {
+    display: none !important;
+}
 
 /* menu */
 .menu {
     display: flex;
+    width: 100%;
+    height: 100%;
 }
 
 .menu li {
-    padding: 1rem;
+    /* padding: 1rem; */
     list-style: none;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
     transition: 0.5s;
+    flex: 1;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+.icon-main {
+    padding: 10px;
+}
 .menu li:hover {
     background: #222;
 }
@@ -97,6 +87,7 @@ nav a {
 .menu li a {
     color: #fff;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .menu-container {
@@ -157,7 +148,7 @@ header {
 
 .header-btn button {
     padding: 0.5rem;
-    width: 10%;
+    /* width: 10%; */
     background-color: #0099ff;
     color: #fff;
     border: none;
@@ -218,6 +209,9 @@ a {
 }
 .about-img {
     margin: 1rem;
+}
+.column img {
+    width: 100%;
 }
 .about-index {
     text-align: center;
@@ -366,7 +360,15 @@ footer {
     margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 768)  {  
+.no-wrap {
+ white-space: nowrap;
+}
+
+@media screen and (max-width: 900px)  {
+
+ }
+
+@media screen and (max-width: 768px)  {  
     .menu-desktop{
         display: none;
     }  
@@ -377,4 +379,123 @@ footer {
         display: block;
     }
     
+
+    .nav-con {
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        display: block;
+        position: relative;
+        width: 100%;
+        padding: 0px;
+    }
+    nav a {
+        /* color: #fff;
+        text-decoration: none; */
+    }
+    .logo {
+        position: relative;
+        z-index: 999;
+        background-color: #333;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .menu {
+        display: block;
+        position: absolute;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+        left: 0px;
+        top: -205px;
+        width: 100%;
+        z-index: 0;
+    }
+
+    .menu li {
+        text-align: center;
+        background-color: #333;
+        width: 100%;
+        margin: 0;
+        border-top: 1px solid #fff;
+        padding: 1rem;
+    }
+    .menu li:last-child {
+        border-bottom: 1px solid #fff;
+    }
+    
+    .menu li:hover {
+        background: #222;
+    }
+    
+    .menu li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .menu-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    .menu-item {
+        margin: 2rem;
+        cursor: pointer;
+        font-weight: 600;
+    }
+    
+    .menu-icons-container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .material-symbols-outlined {
+        display: inline-block !important;
+        margin: 10px 0 10px 10px;
+        font-size: 26px !important;
+    }
+
+    .header-info p {
+        width: 100%;
+    }
+    .about-con {
+        padding: 0px;
+    }
+
+    .about-img img {
+        width: 100%;
+    }
+    .column {
+        grid-template-columns: 1fr;
+    }
+
+    .background-text {
+        width: 100%;
+    }
+    .background-text h1 {
+        text-align: center;
+    }
+    .background-text form {
+        display: flex;
+        width: 90%;
+        gap: 10px;
+    }
+
+    .newsletter input {
+        width: 70%;
+    }
+    .newsletter button {
+        width: 30%;
+    }
+    .footer-menu ul li a {
+        text-transform: uppercase;
+        font-size: 10px;
+    }
 }
