@@ -354,16 +354,6 @@ footer {
  }
 
 @media screen and (max-width: 768px)  {  
-    .menu-desktop{
-        display: none;
-    }  
-    .icon-mobile {
-        display: block;
-    }
-    .menu-mobile-body {
-        display: block;
-    }
-    
     .nav-con {
         /* display: flex;
         justify-content: space-between;
