@@ -7,6 +7,7 @@
     <title>HTML CSS Template</title>
 
     <link rel="stylesheet" href="src/css/styles.css">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <script src="./resources/script.js"></script>
 </head>
@@ -14,29 +15,17 @@
 <body>
     <header>
         <nav>
-            <!-- <div class="container"> -->
-                <div class="nav-con">
-                    <div class="logo">
-                        <a href="/index.html">GameHub</a>
-                    </div>
-                    <ul class="menu">
-                        <li><a href="/about.html">ABOUT US</a></li>
-                        <li><a href="/product.html">GAME PRODUCT</a></li>
-                        <li><a href="#">JOIN OUR DISCORD</a></li>
-                        <li><a href="/contact.html">CONTACT US</a></li>
-                    </ul>
+            <div class="nav-con">
+                <div class="logo">
+                    <span class="material-symbols-outlined" onclick="onDisplayMenu()">menu</span>
+                    <span class="icon-main" href="/index.html">GameHub</span>
                 </div>
-            </div>
-            <div class="menu-mobile-body">
-                <span class="material-symbols-outlined" onclick="onDisplayMenu()">menu</span>
-                <div class="menu-mobile" id="menu-mobile">
-                    <ul class="menu-mobile-ul">
-                        <li><a href="/about.html">ABOUT US</a></li>
-                        <li><a href="/product.html">GAME PRODUCT</a></li>
-                        <li><a href="#">JOIN OUR DISCORD</a></li>
-                        <li><a href="/contact.html">CONTACT US</a></li>
-                    </ul>
-                </div>
+                <ul class="menu" id="menu">
+                    <li><a href="/about.html">ABOUT US</a></li>
+                    <li><a href="/product.html">GAME PRODUCT</a></li>
+                    <li><a href="#">JOIN OUR DISCORD</a></li>
+                    <li><a href="/contact.html">CONTACT US</a></li>
+                </ul>
             </div>
         </nav>
         <div class="header-info">
@@ -50,7 +39,7 @@
             <div class="header-btn">
                 <form action="" method="post">
                     <input type="text" placeholder="Enter your email address">
-                    <button type="submit">Contact Us</button>
+                    <button class="no-wrap" type="submit">Contact Us</button>
                 </form>
             </div>
         </div>
@@ -69,12 +58,12 @@
                 </p>
                 <div class="row">
                     <div class="column">
-                        <img src="/Image/cyber.jpg" alt="">
+                        <img src="./Image/cyber.jpg" alt="">
                         <img src="./Image/Forcelegend.jpg" alt="">
-                        <img src="/Image/assasin.jpg" alt="">
-                        <img src="/Image/star war.jpg" alt="">
-                        <img src="/Image/black.jpg" alt="">
-                        <img src="/Image/furios.jpg" alt="">
+                        <img src="./Image/assasin.jpg" alt=""> 
+                        <img src="./Image/star war.jpg" alt="">
+                        <img src="./Image/black.jpg" alt="">
+                        <img src="./Image/furios.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -112,9 +101,8 @@
             <form action="" method="post">
                 <input type="email" placeholder="Enter your email address">
                 <button type="submit">Sign up now!</button>
-                <br>
-                <br>
             </form>
+            <br>
         </div>
     </section>
     <footer>
@@ -125,10 +113,12 @@
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Privacy & policy</a></li>
                     <li><a href="#">Terms</a></li>
+                    <li>
+                        <div class="footer-logo">
+                            <a href="#">GameHub</a>
+                        </div>
+                    </li>
                 </ul>
-                <div class="footer-logo">
-                    <a href="#">GameHub</a>
-                </div>
             </div>
         </div>
     </footer>
