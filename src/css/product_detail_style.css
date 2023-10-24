@@ -1,7 +1,7 @@
 .product-con{
     display: grid;
 }
-.product-con h3{
+.product-con h2{
     color: #b9b9b9;
     margin: 1rem;
 }
@@ -49,4 +49,17 @@ details>summary {
     background: url(/Image/product_detail.png);
     background-size: cover;
     height: 100vh;
+}
+
+@media screen and (max-width: 768px){
+    .product-info h1 {
+        font-size: 48px;
+    }
+    .submit-button {
+        width: 80px;
+        font-size: 16px;
+    }
+    .product-con {
+        height: auto;
+    }
 }

@@ -5,18 +5,22 @@
     grid-template-columns: auto auto;
     padding: 10em;
 }
+
 .herocheckout-con{
     display: flex;
     flex-direction: column;
     gap: 2em;
     width: 80%;
 }
+
 .address h4{
     color: #fff;
 }
+
 .text-white{
     color: #fff;
 }
+
 .checkout-box{
     display: flex;
     justify-content: space-evenly;
@@ -24,14 +28,17 @@
     margin: 1em;
     padding: 1em;
 }
+
 .herocheckout{
     text-align: center;
 }
+
 label{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     display: inline-block;
 }
+
 .submit-button{
     border: none;
     background: #4b4b4b;
@@ -45,23 +52,27 @@ label{
     margin-bottom: 30px;
     transition: 0.3s;
 }
+
 .submit-button:hover{
     opacity: 0.7; 
 }
+
 .checkout-box .product-price{
     font-family: Open Sans;
     font-size: 25px;
     font-style: normal;
     line-height: normal;  
 }
+
 .checkout-box .product-name{
-font-family: Open Sans;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
+
 input[type="email"]{
     height: 40px;
     padding: 0 10px;
@@ -70,6 +81,7 @@ input[type="email"]{
     border: none;
     font-size: 18px;
 }
+
 input[type="password"]{
     height: 40px;
     padding: 0 10px;
@@ -79,9 +91,27 @@ input[type="password"]{
     font-size: 18px;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px){
     .checkout-page{
-        padding: 2em;
+        display: grid;
+
+        grid-template-columns: 1fr;
+        padding: 5em;
     }
-    
+    .herocheckout-info{
+        display: grid;
+    }
+    .herocheckout-con{
+        display: grid;
+        width: 100%;
+    }
+
+    .checkout-box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .submit-button{
+        width: 100%;
+    }
 }

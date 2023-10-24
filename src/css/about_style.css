@@ -172,3 +172,12 @@ background-color: #000;
     border-radius: 2rem;
     margin: 1rem;
 }
+@media screen and (max-width: 768px){
+    .clients-grid {
+        grid-template-columns: 1fr;
+    }
+    .clients-img img {
+        width: 80%;
+    }
+
+}
