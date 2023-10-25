@@ -1,5 +1,5 @@
 section.blog{
-background-color: #000;
+    display: grid;
 }
 
 /* aboout css page */
@@ -44,7 +44,8 @@ background-color: #000;
 }
 
 .hero-con {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 .hero-info {
     width: 100%;
@@ -69,7 +70,7 @@ background-color: #000;
     text-decoration: none;
 }
 .hero-img img {
-    width: 80%;
+    width: 100%;
     padding: 2rem;
 }
 .hero-info h1{
@@ -141,7 +142,6 @@ background-color: #000;
 .clients {
     padding: 3rem 0;
     text-align: center;
-    background-color: #000000;
     color: #fff;
 }
 .container-title h1 {
@@ -179,5 +179,30 @@ background-color: #000;
     .clients-img img {
         width: 80%;
     }
-
+    .hero-img img {
+        width: 100%;
+        padding: 2rem;
+    }
+    .hero-con {
+        display: block;
+    }
+    .blog-con {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        padding: 2rem;
+    }
+    .blog-item img {
+        width: 100%;
+    }
+    .pricing-table {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 3rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+    h3{
+       text-align: center;
+    }
 }
