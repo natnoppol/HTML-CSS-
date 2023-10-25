@@ -94,7 +94,7 @@ nav a {
 /* Header  */
 header {
     background: url('/Image/gamehub\ for\ gamer\ by\ gamer.png');
-    height: 500px;
+    height: 34.375rem;
     background-size: cover;
     background-position: center;
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
@@ -274,8 +274,7 @@ a {
 
 /* footer */
 footer {
-    background-color: #000000;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .footer-menu {
@@ -372,7 +371,6 @@ footer {
         width: 100%;
         z-index: 0;
     }
-
     .menu li {
         text-align: center;
         background-color: #333;
@@ -384,16 +382,13 @@ footer {
     .menu li:last-child {
         border-bottom: 1px solid #fff;
     }
-    
     .menu li:hover {
         background: #222;
     }
-    
     .menu li a {
         color: #fff;
         text-decoration: none;
     }
-    
     /* .menu-container {
         display: flex;
         justify-content: center;
@@ -413,27 +408,26 @@ footer {
         justify-content: center;
         align-items: center;
     } */
-    
     .material-symbols-outlined {
         display: inline-block !important;
         margin: 10px 0 10px 10px;
         font-size: 26px !important;
     }
-
     .header-info p {
         width: 100%;
     }
     .about-con {
-        /* padding: 0px; */
+        padding: 0px;
     }
-
-    .about-img img {
+    .column img {
+        width: 80%;
+    }
+    /* .about-img img {
         width: 100%;
-    }
+    } */
     .column {
         grid-template-columns: 1fr;
     }
-
     .background-text {
         width: 100%;
     }
@@ -445,7 +439,6 @@ footer {
         width: 90%;
         gap: 10px;
     }
-
     .newsletter input {
         width: 70%;
     }
@@ -454,6 +447,7 @@ footer {
     }
     .footer-menu ul li a {
         text-transform: uppercase;
-        font-size: 10px;
+        font-size: 0.625rem;
     }
+    
 }
