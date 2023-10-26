@@ -26,7 +26,6 @@ h1 {
     font-family: Open Sans;
     font-size: 2rem;
     font-style: normal;
-    font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
 }
@@ -128,7 +127,7 @@ h3 {
     border-radius: 5px;
 }
 .header-btn button {
-    padding: 0.5rem;
+    padding: 0.9rem;
     /* width: 10%; */
     background-color: #0099ff;
     color: #fff;
