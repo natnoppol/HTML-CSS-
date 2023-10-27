@@ -69,16 +69,12 @@ section.blog{
     border-radius: 5px;
     text-decoration: none;
 }
-.hero-img img {
-    width: 100%;
-    padding: 2rem;
-}
 .hero-info h1{
     color: #FFF;
     text-align: center;
     text-shadow: 0px 0px 20px #FFF;
     font-family: Open Sans;
-    font-size: 100px;
+    font-size: 5rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -173,15 +169,13 @@ section.blog{
     margin: 1rem;
 }
 @media screen and (max-width: 768px){
+    .hero-info{
+    }
     .clients-grid {
         grid-template-columns: 1fr;
     }
     .clients-img img {
         width: 80%;
-    }
-    .hero-img img {
-        width: 100%;
-        padding: 2rem;
     }
     .hero-con {
         display: block;

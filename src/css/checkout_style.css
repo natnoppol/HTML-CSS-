@@ -1,44 +1,40 @@
 .checkout-page{
     background: url(/Image/checkout_img.png);
+    width: auto;
     background-size: cover;
     display: grid;
     grid-template-columns: auto auto;
     padding: 10em;
 }
-
 .herocheckout-con{
     display: flex;
     flex-direction: column;
     gap: 2em;
-    width: 80%;
+    width: 100%;
 }
-
 .address h4{
     color: #fff;
 }
-
-.text-white{
-    color: #fff;
+.checkout{
 }
-
 .checkout-box{
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    margin: 1em;
-    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 2em;
+    align-items: center;
+    padding: 2em;
+    border-bottom: #fff solid 1px;
 }
-
 .herocheckout{
-    text-align: center;
+    display: grid;
+    justify-content: center;
 }
-
 label{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     display: inline-block;
 }
-
 .submit-button{
     border: none;
     background: #4b4b4b;
@@ -52,27 +48,18 @@ label{
     margin-bottom: 30px;
     transition: 0.3s;
 }
-
 .submit-button:hover{
     opacity: 0.7; 
 }
-
 .checkout-box .product-price{
     font-family: Open Sans;
-    font-size: 25px;
-    font-style: normal;
-    line-height: normal;  
+    font-size: 2rem;
 }
-
 .checkout-box .product-name{
     font-family: Open Sans;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    font-size: 2rem;
     text-transform: uppercase;
 }
-
 input[type="email"]{
     height: 40px;
     padding: 0 10px;
@@ -81,7 +68,6 @@ input[type="email"]{
     border: none;
     font-size: 18px;
 }
-
 input[type="password"]{
     height: 40px;
     padding: 0 10px;
@@ -90,13 +76,12 @@ input[type="password"]{
     border: none;
     font-size: 18px;
 }
-
 @media screen and (max-width: 768px){
     .checkout-page{
         display: grid;
-
         grid-template-columns: 1fr;
-        padding: 5em;
+        padding: 5rem;
+        justify-content: center;   
     }
     .herocheckout-info{
         display: grid;
@@ -105,13 +90,22 @@ input[type="password"]{
         display: grid;
         width: 100%;
     }
-
     .checkout-box{
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr;
     }
-
-    .submit-button{
-        width: 100%;
+    .herocheckout{
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .herocheckout-con{
+      padding: 1rem;
+    }
+    .checkout-box .product-price{
+        font-family: Open Sans;
+        font-size: 2rem;
+    }
+    .customerdata{
+        border-bottom: 1px solid #fff;
     }
 }

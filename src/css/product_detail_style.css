@@ -31,7 +31,7 @@ details>summary {
     margin: 1rem;
 }
 
-.submit-button {
+.product-button {
     border: none;
     background: #4b4b4b;
     border-radius: 1rem;
@@ -55,7 +55,7 @@ details>summary {
     .product-info h1 {
         font-size: 48px;
     }
-    .submit-button {
+    .product-button {
         width: 80px;
         font-size: 16px;
     }
