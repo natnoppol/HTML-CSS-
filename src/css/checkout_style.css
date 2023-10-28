@@ -81,7 +81,7 @@ input[type="password"]{
         display: grid;
         grid-template-columns: 1fr;
         padding: 5rem;
-        justify-content: center;   
+        justify-content: center;
     }
     .herocheckout-info{
         display: grid;
