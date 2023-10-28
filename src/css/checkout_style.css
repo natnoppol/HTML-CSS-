@@ -2,6 +2,7 @@
     background: url(/Image/checkout_img.png);
     width: auto;
     background-size: cover;
+    background-position: center;
     display: grid;
     grid-template-columns: auto auto;
     padding: 10em;

@@ -1,4 +1,4 @@
-section.blog{
+section.blog {
     display: grid;
 }
 
@@ -8,21 +8,26 @@ section.blog{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2rem;
 }
+
 .blog-title {
     margin: 2rem 0;
     color: #fff;
 }
+
 .blog-item img {
     width: 100%;
 }
+
 .blog-item h4 {
     margin-top: 1rem;
     color: #fff;
 }
+
 .blog-item p {
     margin-top: 1rem 0;
     color: #fff;
 }
+
 .blog-item a {
     display: inline-block;
     color: #fff;
@@ -31,36 +36,30 @@ section.blog{
     text-decoration: none;
     border-radius: 5px;
 }
-.footer-bottom{
-    color: #fff;
-    background-color: #000;
-    padding: 1rem;
-    text-align: center;
-    }
-    
-    /* Hero Home page */
+
+/* Hero Home page */
 .hero {
     background-color: #000000;
 }
 
-.hero-con {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 .hero-info {
     width: 100%;
     padding: 2rem;
     color: #fff;
 }
+
 .hero-info h1 {
     font-size: 2rem;
 }
+
 .hero-info p {
     margin: 1rem 0;
 }
+
 .hero-info .hero-btn a {
     color: #fff;
 }
+
 .hero-info .hero-btn {
     display: inline-block;
     background-color: orange;
@@ -69,7 +68,8 @@ section.blog{
     border-radius: 5px;
     text-decoration: none;
 }
-.hero-info h1{
+
+.hero-info h1 {
     color: #FFF;
     text-align: center;
     text-shadow: 0px 0px 20px #FFF;
@@ -89,13 +89,16 @@ section.blog{
     text-align: center;
     padding: 3rem 0;
 }
+
 .pricing-info h3 {
     font-weight: lighter;
     font-size: 2rem;
 }
+
 .pricing-info p {
     margin: 1rem 0;
 }
+
 .pricing-table {
     margin-top: 3rem;
     display: grid;
@@ -103,28 +106,34 @@ section.blog{
     grid-gap: 1rem;
     /* border: 5cm solid red; */
 }
+
 .pricing-box {
     background-color: #fff;
     color: #333;
     padding: 1rem;
 }
+
 .pricing-box-title {
     background-color: #929292;
     padding: 1rem;
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .pricing-box-info {
     padding: 1rem;
 }
+
 .price-blue {
     color: #0099ff;
     font-size: 2rem;
     font-weight: bold;
 }
+
 .price-box-info {
     margin: .5rem 0;
 }
+
 .pricing-more-info {
     display: inline-block;
     background-color: #43b303;
@@ -134,22 +143,26 @@ section.blog{
     text-decoration: none;
     border-radius: 5px;
 }
+
 /* client */
 .clients {
     padding: 3rem 0;
     text-align: center;
     color: #fff;
 }
+
 .container-title h1 {
     color: #0099ff;
     font-size: 2rem;
     font-weight: lighter;
 }
+
 .clients-title p {
     color: #797979;
     margin: 1rem 0;
     color: #fff;
 }
+
 .clients-grid {
     margin-top: 2rem;
     display: grid;
@@ -168,9 +181,41 @@ section.blog{
     border-radius: 2rem;
     margin: 1rem;
 }
-@media screen and (max-width: 768px){
-    .hero-info{
-    }
+.footer-bottom {
+    color: #fff;
+    background-color: #000;
+    padding: 1rem;
+    text-align: center;
+}
+.footer-top {
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: #333;
+    color: #fff;
+}
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+.footer-top-item-con {
+    display: flex;
+    margin: 1rem 0;
+}
+.footer-top-item-con .date {
+    background-color: #fff;
+    color: #000000;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+}
+.footer-top-item:nth-child(2) h4,
+.footer-top-item:nth-child(3) h4 {
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 768px) {
     .clients-grid {
         grid-template-columns: 1fr;
     }
@@ -196,7 +241,43 @@ section.blog{
         width: 80%;
         margin: 0 auto;
     }
-    h3{
-       text-align: center;
+    h3 {
+        text-align: center;
+    }
+    .pricing-box {
+        width: 100%;
+    }
+    .pricing-box-title {
+        width: 100%;
+    }
+    .pricing-box-info {
+        width: 100%;
+    }
+    .pricing-more-info {
+        width: 100%;
+    }
+    .footer-top-con {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+    }
+    .footer-top-item-con {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+    .footer-top-item:nth-child(2) h4,
+    .footer-top-item:nth-child(3) h4 {
+        margin-bottom: 0;
+    }
+    .footer-top-item:nth-child(2) p,
+    .footer-top-item:nth-child(3) p {
+        margin-top: 0;
+    }
+    .footer-top-item:nth-child(2) {
+        text-align: center;
+    }
+    .footer-top-item:nth-child(3) {
+        text-align: center;
     }
 }
