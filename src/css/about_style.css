@@ -220,7 +220,7 @@ section.blog {
         grid-template-columns: 1fr;
     }
     .clients-img img {
-        width: 80%;
+        width: 60%;
     }
     .hero-con {
         display: block;
@@ -279,5 +279,8 @@ section.blog {
     }
     .footer-top-item:nth-child(3) {
         text-align: center;
+    }
+    .footer-top-item-con .date {
+        margin-right: 20%;
     }
 }
