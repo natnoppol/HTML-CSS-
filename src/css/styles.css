@@ -4,7 +4,7 @@
 @import url(/src/css/product_detail_style.css);
 @import url(/src/css/about_style.css);
 @import url(/src/css/checkout_sussess_style.css);
-@import url(/src/css/Checkout_payment_style.css);
+@import url(./Test_checkout_payment_style.css);
 
 * {
     margin: 0;
@@ -363,7 +363,7 @@ footer {
         padding: 0px;
     }
     .column img {
-        width: 60%;
+        width: 50%;
     }
     /* .about-img img {
         width: 100%;
