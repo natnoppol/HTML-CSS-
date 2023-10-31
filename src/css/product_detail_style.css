@@ -40,7 +40,7 @@
     text-align: left;
     color: #b9b9b9;
     width: 100%;
-    height: 15rem;
+    height: 12rem;
     overflow: auto;
 }
 .product-btn {
@@ -103,7 +103,7 @@
     .product-info p {
         padding: 1rem;
         width: 100%;
-        height: 15rem;
+        height: 11rem;
         overflow: auto;
     }
 }
